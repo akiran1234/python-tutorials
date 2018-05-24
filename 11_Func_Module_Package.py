@@ -20,7 +20,7 @@ print(first.__doc__)                                   # Usage of doc string. **
 print("1 **********************")
 #################################################################################################################
 # functions with arguments are divided into 4 categories
-# 1.Default arguments  2. Required arguments   3.Keyword arguments    4.Keyword arguments
+# 1.Default arguments  2. Required arguments   3.Keyword arguments    4.Variable length arguments
 
 def defarg(age, name='kiran',):                  # "Non default arguments" should be always placed first and followed by "Default arguments"
     """Default argument functionality"""
