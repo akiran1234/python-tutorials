@@ -69,7 +69,7 @@ help('modulename')     # Ex: help('re')--> will give the list of functions avail
 print.__module__       # This will query print() method belongs to which module
 
 dir()              	   # is a function to get the list of attributes/functions used in the module.
-dir(object)            # s='string' s is object of string class. To list the methods of class string: dir(s).
+print(dir(object))     # s='string' s is object of string class. To list the methods of class string: dir(s).
 id(object)             # This will return the address of object. a=10; type(a)- This will return the address of object a.
 
 # modules path         # C:\Program Files\Python36\Lib in windows.

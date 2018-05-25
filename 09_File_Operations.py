@@ -91,12 +91,12 @@ print( " 6 **********************" )
 
 with open('withfile.txt','r') as f1:
     print(f1.read(10))    # This will read the specified characters from the beginning of the file to end of the file.
-    # print(f1.read(5))    # Note, to print this the pointer position is at 10 char from previous read hence it will print next 5 chars from 11 character of the file.
+    # print(f1.read(5))   # Note, to print this the pointer position is at 10 char from previous read hence it will print next 5 chars from 11 character of the file.
 
 print( " 7 **********************" )
 with open('withfile.txt','r') as f1:
-    print(f1.readline())   # This method reads a file till the newline, including the newline character.
-    print(f1.readline())   # The position of the cursor is at second line and print the line until it reach '\n' character.
+    print(f1.readline())  # This method reads a file till the newline, including the newline character.
+    print(f1.readline())  # The position of the cursor is at second line and print the line until it reach '\n' character.
 
 
 
