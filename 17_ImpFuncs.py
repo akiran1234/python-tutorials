@@ -5,6 +5,10 @@
 # Start is starting number and end is ending number and step is increment number. If step is + from beginning and step is -ve from ending.
 # range is called as xrange in Python 2x and in Python 3x it is range hence xrange wont work in python 3.
 
+for i in range(5):        # By default range will generate from 0 and increment by 1
+    print(i)
+print("***********")
+
 for i in range(1,10,1):   # Increment by 1
     print(i)
 print("***********")

@@ -69,7 +69,7 @@ print('Printing before the function call=',a,s1,l1,sep=',')
 def callbyval():
     a=100;
     s1='hello'
-    l1[0]=11                                           # Here a,s1 are call by value and l1 is call by reference.
+    l1[0]=11                    # Here a,s1 are call by value and l1 is call by reference.
     print('Printing from  function callbyval=',a,s1,l1,sep=',')
 
 
