@@ -100,8 +100,19 @@ print(list1)
 list1.sort()                      # Sort method will sort the list of elements pre requite for sort is all elements should be of same data type.
 print(list1)                      # Printing the sorted list.
 
-
+print("**********************")
 # There are many methods refer --> https://www.tutorialspoint.com/python/python_lists.htm
 #################################################################################################################
+# List Comprehensions
+l=[1,2,3,4,5,6,7,8,9,10]
 
+l1=[]   # Creating an empty list.
 
+l1=[n for n in l]
+print("List compreshension L1=",l1)
+
+l2=[x*x for x in l]
+print("List compreshension L2=",l2)
+
+l3=[y for y in l if y%2==0]  # Creating a list with even numbers.
+print("List of even numbers with List compreshension L3=",l3)

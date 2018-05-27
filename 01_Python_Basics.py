@@ -78,3 +78,15 @@ id(object)             # This will return the address of object. a=10; type(a)- 
 # print() function in python
 
 print("Linux","Python","AWS",sep="|",end=':') # sep= out put separator and end=\n or some indicator.
+
+# Python Standards
+
+# Python packages & modules should have small names. (module_name, package_name)
+# Class Names should be Capwords. (ClassName)
+# method names should start with small case. (method_name)
+# function names should start with small case. (function_name)
+# GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name,  function_parameter_name,  local_var_name.
+# Maximum line lenght should be 79 chars
+# Indentation should have 4 spaces.
+# importing modules should be on separate lines.
+
