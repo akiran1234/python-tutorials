@@ -7,6 +7,7 @@
 # We cannot use special symbols like !, @, #, $, % etc. in our identifier.
 # https://www.programiz.com/python-programming/keywords-identifier -- Reference
 # Python Naming Convention --- http://visualgit.readthedocs.io/en/latest/pages/naming_convention.html#general
+# https://data-flair.training/blogs/python-tutorial/ -- Refer for python
 
 count = 10
 print("Printing the value of count", count)
