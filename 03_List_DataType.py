@@ -104,6 +104,8 @@ print("**********************")
 # There are many methods refer --> https://www.tutorialspoint.com/python/python_lists.htm
 #################################################################################################################
 # List Comprehensions
+# https://data-flair.training/blogs/python-list-comprehension/
+
 l=[1,2,3,4,5,6,7,8,9,10]
 
 l1=[]   # Creating an empty list.
@@ -116,3 +118,6 @@ print("List compreshension L2=",l2)
 
 l3=[y for y in l if y%2==0]  # Creating a list with even numbers.
 print("List of even numbers with List compreshension L3=",l3)
+
+l4= [('four' if i % 4 == 0 else ('six' if i % 6 == 0 else i)) for i in l]
+print(l4)

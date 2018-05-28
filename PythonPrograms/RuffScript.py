@@ -1,9 +1,11 @@
-# import urllib2
-#
-# def internet_on():
-#     try:
-#         urllib2.urlopen('http://216.58.192.142', timeout=1)
-#         return True
-#     except urllib2.URLError as err:
-#         return False
+l=[1,2,3,4]
+print([x*x for x in l if x*x>4])
 
+
+s={1,2,3,4}
+
+s=set([j*j for j in s])
+print(s)
+
+x=set(zip(l,s))
+print(x)
