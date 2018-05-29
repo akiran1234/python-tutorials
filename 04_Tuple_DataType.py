@@ -78,3 +78,12 @@ print(min(t11))
 print(max(t11))
 
 print("**********************")
+# iterating tuples in a list.
+lempty=[]
+l=[(1,2),(3,4),(5,6),(7,8)]
+for a,b in l:
+     print(a,b)
+     lempty.append(a)
+     lempty.append(b)
+
+print("lempty",lempty)
