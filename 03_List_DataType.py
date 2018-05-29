@@ -19,6 +19,13 @@ print(list1[3])   # Extracting fourth value
 print(list1[:4])  # From 0 position to 3rd position excluding 4th position in the list
 print(list1[1:])  # From second value to till end of the list.
 
+l=[1,2,3,[4,5,[6,7,8,[9]]]]
+print(l[3][2][3][0]) # Accessing nested list items
+
+list11=[1,1,1,2,2,3,3,4]
+s=set(list11)
+print("Removing duplicates using set:",s)
+print("Converting set to list:",list(s))
 print("**********************")
 #################################################################################################################
 
