@@ -27,7 +27,7 @@ def sqrt(x):return(x*x)
 
 # Applying this function with map()
 l=[1,2,3,4]
-l=list(map(sqrt,l))  # Here sqrt function is applied on each element and returned as a list of elements.
+l=list(map(sqrt,l))      # Here map function maps each element to sqrt function and each element will be returned as a list of elements.
 print("Map example1=",l)
 
 
