@@ -1,4 +1,4 @@
+c1 = set(["White", "Black", "Red"])
+c2 = set(["Red", "Green"])
 
-l=[1,2,3,[4,5,[6,7,8,[9]]]]
-
-print(l[3][2][3][0])
+print(c1-c2)
