@@ -1,4 +1,8 @@
-c1 = set(["White", "Black", "Red"])
-c2 = set(["Red", "Green"])
+from datetime import date
+from datetime import time
+from datetime import datetime
+import numpy as np
 
-print(c1-c2)
+
+
+

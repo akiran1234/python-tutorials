@@ -1,4 +1,9 @@
-import math
+# modules
+# json, csv, logging, datetime, os, sys,random,
+
+# pickling is the process of writing the state of an object to file and writing back from file to object is un pickiling.
+# import pickle;
+
 
 print(format(12, "08b")) # creating whole number to binary, 08b leading zero and total length 8.
 print(int('1111',2))     # creating binary number to whole number.
