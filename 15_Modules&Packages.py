@@ -1,8 +1,16 @@
+# Packages are hierarchically at the top level which is nothing but directory having sub directory and modules.
+# By creating __init__ file in a dir we can tell the interpreter that it is a package.
 # Modules are nothing but python scripts with .py extension.
 # A module can define variables, functions and classes and a module can also include runnable code.
 # Grouping related code into a module makes the code easier to understand and use.
 # A module can be imported using import statement.
 # import module_name ==> This will import all the attributes of the module into current module.
+# A module will have variables, functions, classes.
+# __name__ will print the module name= __main__ when the script has run as main script.
+# when __name__ is used in import script then it gives the script(module) name.
+# All modules belongs to <class 'module'>; check <type(numpy)>
+# dir('modules') is builtin function to query all the modules available in python library.
+# dir('numpy')   giving only module name will list all the attributes(Var,func,class,implicit builtin attributes) of the module.
 
 import module_math as m        # This is nothing but running module_math.py from top to bottom in the current module namespace.
                                # Please note after importing print statements from "SampleTest" module is printed in the current module.
@@ -13,7 +21,7 @@ from module_hello import hello,welcome,a
 # from module_hello import *   # This * will pull all the attributes and functions in to current workspace. But this will create ambiguity problem with other
                                # (cont..) modules hence this is not best practise.
 
-print('Value of attribute __name__:',__name__)      # Print the main script script.
+print('Value of attribute __name__:',__name__)      # Print the main  script.
 print('Printing y value from SampleTest Module',m.y)
 print('Printing x value from SampleTest Module',m.x)
 
@@ -27,6 +35,7 @@ print(w)
 print(a)
 
 print('************************************************************************************************')
+# print(dir(__file__)): This will print all the attributes implicit and explicit.
 # We can find the module path by: import sys; print(sys.path)
 # By default the following below attributes will be created for any module:
 # '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__'

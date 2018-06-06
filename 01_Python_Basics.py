@@ -8,6 +8,7 @@
 # https://www.programiz.com/python-programming/keywords-identifier -- Reference
 # Python Naming Convention --- http://visualgit.readthedocs.io/en/latest/pages/naming_convention.html#general
 # https://data-flair.training/blogs/python-tutorial/ -- Refer for python
+# Python is a pure OOPS Language- modules,variables,functions,classes. type(object) will return the object class.
 
 count = 10
 print("Printing the value of count", count)

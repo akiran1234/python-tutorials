@@ -1,4 +1,11 @@
-c1 = set(["White", "Black", "Red"])
-c2 = set(["Red", "Green"])
+import numpy as np
 
-print(c1-c2)
+np.random.random_sample()
+
+np.random.randint()
+
+
+
+
+
+
