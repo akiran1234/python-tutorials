@@ -1,5 +1,6 @@
 # This program will count the no of digits in a given number
 
+
 a=12345
 count=0
 q=12345

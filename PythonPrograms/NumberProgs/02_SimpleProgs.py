@@ -1,5 +1,6 @@
 # Caliculate the avg of numbers in a list
 
+
 l = [10, 10, 10, 10]
 sum=0
 
