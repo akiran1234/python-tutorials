@@ -1,3 +1,4 @@
+# A class variable is a static variable because no instance creation is required and it is bound to class.
 # Instance Variables
 # A variable that is defined inside a method and belongs only to the current instance of a class.
 # For each object that is been created a separate copy will be created in memory.
@@ -55,6 +56,7 @@ print("After Change: ",t1.x,t2.x)
 
 # Class variables share the same value across all the instances of the class.
 # Change of value in the class variable will reflect across all the instances.
+# A class variable is a static variable because no instance creation is required to access those variables.
 
 class test:
     v1=10

@@ -1,6 +1,9 @@
 # Numpy is the main building block used for math/scientific computation and used with rest of PyData Libraries.
 # Numpy array is an n-dimensional object,1d array is called "vector" and 2d is "matrix" still matrix can have 1 row and 1 column.
-#
+# Numpy Arrays and Lists both are mutable
+# List doesn't support range index assignment but Array will support Ex:  array1=[1,2,3,4,5,6]; array1=array1[0:3]=99
+# We can perform math operations on each elements of Array and list will not support with out for loop.
+# Array will consume very less amount of space and performance of computation on Array is higher than list.
 import numpy as np
 
 l1=[1,2,3,4]
@@ -64,7 +67,7 @@ print("********************************")
 # Generate random numbers using random module of numpy library rand(), randint(), randn() functions.
 
 print("4 Random Numbers=",              np.random.rand(4))   # Generate 4 random numbers and each item will be 0 and 1
-print("5 Random Numbers between limit=",np.random.randint(10,50,5))  # Generate random integers with size 5
+print("5 Random Numbers between limit=",np.random.randint(10,50,5))  # Generate 5 random integers between 10 and 5.
 print("3x3 Matrix with randn()",np.random.randn(3,3),sep='\n')       # Generate matrix
 
 print("********************************")

@@ -4,7 +4,7 @@
 # A class is defined with key word class and object is created by calling the class name with parenthesis.
 # In python object it self is passed as an argument to the class hence self is used as the first argument
 # .. in constructor and all the methods of the class.
-# Variables inside methods are called fields in some context and denoted with f in ide.
+# Variables inside class are called fields and functions inside class are called methods.
 # In OOP's two type of variables Class Variables, Instance Variables.
 
 class Student:           # Creating class student with class keyword.
