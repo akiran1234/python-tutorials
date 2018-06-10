@@ -9,6 +9,7 @@
 # Python Naming Convention --- http://visualgit.readthedocs.io/en/latest/pages/naming_convention.html#general
 # https://data-flair.training/blogs/python-tutorial/ -- Refer for python
 # Python is a pure OOPS Language- modules,variables,functions,classes. type(object) will return the object class.
+# https://www.jetbrains.com/help/pycharm/symbols.html  -- pycharm symbol reference
 
 count = 10
 print("Printing the value of count", count)

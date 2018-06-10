@@ -4,6 +4,7 @@
 # Large programs will be sub divided into smaller chunks of code henceforth the programs will be more readable.
 # Function will have function name, arguments,indention,block of statements and return type.
 # Function calling should be always after the function definition in programme execution.
+# A function return statement can return more than one value and the return result is a tuple.
 # help('modules') # run this help function - will list all the available modules in the library.
 # dir() is a builtin function to get the list of attributes/functions used in the module. Ex: dir(math)
 #################################################################################################################
@@ -107,6 +108,31 @@ def testglobal1():
 testglobal1()
 print('Print global after function call=',g) # Prints the value which is overridden inside the function.
 
+#################################################################################################################
+# First class functions
+# A function is an instance of the Object type.
+# You can store the function in a variable.
+# You can pass the function as a parameter to another function.
+# You can return the function from a function.
+# You can store them in data structures such as hash tables, lists,
+# This type of functions are called first class functions.
+
+def display(name):
+    print("Upper case=",name.upper())
+
+x=display
+x('Kiran')
+print(type(x))  # here x is the instance of display function class
+
+# Returning multiple values and return type is tuple data type.
+
+def display(name):
+    print("Upper case=",name.upper())
+    x=100
+    return x,name.upper()
+
+
+print(type(display('Kiran')))
 
 
 
