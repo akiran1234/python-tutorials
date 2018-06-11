@@ -1,12 +1,20 @@
-import numpy as np
-import pandas as pd
+class test:
+    def __init__(self):
+        print("Hello I'm in constructor")
+
+    @staticmethod
+    def hellostatic():
+        print("Hey this is static method, No need of Instance creation")
+
+    @classmethod
+    def greet(cls):
+        print("Hey this is class method")
 
 
+test.hellostatic()
 
-a=np.arange(25).reshape(5,5)
-
-print(type(a),a,sep='\n')
-print(a[a>5])
+l=list(range(100))
+print([x for x in l if x%2==0])
 
 
 
