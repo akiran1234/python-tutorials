@@ -128,3 +128,5 @@ print("List of even numbers with List compreshension L3=",l3)
 
 l4= [('four' if i % 4 == 0 else ('six' if i % 6 == 0 else i)) for i in l]
 print(l4)
+
+print("Hello this is python")
