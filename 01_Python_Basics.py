@@ -1,4 +1,8 @@
 #####################################################################################################################
+# Python Features
+# Interpreted, OOPS,  Readability (Indentation), Portable, Easy to Learn, Open Source, Vast Libraries
+# Dynamically Typed - No data type declaration (Data type is decided by the interpreter at run time)
+#####################################################################################################################
 # Identifiers are the names given to entities like  Variables, functions and classes ..
 # Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore (_).
 # Names like myClass, var_1 and print_this_to_screen, all are valid example.
@@ -89,7 +93,9 @@ print("Linux","Python","AWS",sep="|",end=':') # sep= out put separator and end=\
 # method names should start with small case. (method_name)
 # function names should start with small case. (function_name)
 # GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name,  function_parameter_name,  local_var_name.
-# Maximum line lenght should be 79 chars
+# Maximum line length should be 79 chars
 # Indentation should have 4 spaces.
 # importing modules should be on separate lines.
+
+
 

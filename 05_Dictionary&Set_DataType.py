@@ -89,7 +89,7 @@ print("Union :", A | B)
 print("Intersection :", A & B)
 
 # difference
-print("Difference :", A - B)
+print("Difference and result is from A:", A - B)
 
 # symmetric difference
 print("Symmetric difference :", A ^ B)

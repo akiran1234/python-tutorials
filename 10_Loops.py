@@ -33,7 +33,7 @@ print( " 2 **********************" )
 #################################################################################################################
 # for loop with tuple
 
-tuple1=[1,2,4,'abc',34.45]
+tuple1=(1,2,4,'abc',34.45)
 
 for y in tuple1:
     print("Iteration in for loop,printing list values=",y)
