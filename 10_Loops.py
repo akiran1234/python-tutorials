@@ -16,12 +16,12 @@ else:
 print( " 1 **********************" )
 #################################################################################################################
 # For loop - execute this in terminal
-# To traverse and print data structures like- list, tuple & set for loop is used.
-# for loop supports only list, tuple and set.
+# To traverse and print data structures like- list, tuple & dict for loop is used.
+# for loop supports only list, tuple, dict and set.
 # Python doesn't support traditional for loops with loop variable. Ex: C,C++ and Java.
 
 for i in(10,20,30):
-    print(i)
+    print(type(i),i)
 
 list1=[1,2,4,'abc',34.45]
 

@@ -49,18 +49,15 @@ print(1+2); print(5+6);print("Printing multiple statements in a single line by p
 #####################################################################################################################
 # Reading data from standard input (keyboard) and display on standard output using print() function.
 # print() is a function belongs to builtins module.
-# Reading data using two functions input() and raw_input().
-# input(): Interprets and evaluates the input which means that if user enters integer,an integer will be returned,if user enters string,string is returned.
-# raw_input(): takes exactly what user typed and passes it back as string .It doesn't interprets the user input.
+# Reading data using input() function, by default it will read as string.
+# input(): If an integer input is passed as command line Arg it has to be typed casted as a= int(input("Enter the value"))
+# In python 3 input() will read as string.
 # Even an integer value of 10 is entered or a list is entered its type will be of string only.
 
 str1=input()                                             # Execute in a separate script for better understanding; input= read in linux.
-print("Printing from the standard input function:",str1) # Printing standard output on screen
+print("Printing from the standard input function:",type(str1),str1) # Printing standard output on screen
 
 
-# str2=raw_input()      # In python 3 input and raw_input() both are same. Execute in a separate script for better understanding
-# print("Printing from the standard input function:",str2)
-# In python 3 input() will read as string.
 
 #####################################################################################################################
 # Command line arguments pending
@@ -72,17 +69,14 @@ print("Printing from the standard input function:",str1) # Printing standard out
 # Modules can be imported from the library path and it's attributes like variables, functions and classes can be utilized.
 help('modules')        # run this help function - will list all the available modules in the library.
 help('modulename')     # Ex: help('re')--> will give the list of functions available in the module.
-# Python has many builtin functions to know a particular function belongs to which module can be queried.
-print.__module__       # This will query print() method belongs to which module
-
-dir()              	   # is a function to get the list of attributes/functions used in the module.
+dir()              	   # is a function to get the list of hidden attributes/functions used in the module.
 print(dir(object))     # s='string' s is object of string class. To list the methods of class string: dir(s).
+
+abs.__doc__            # This will print the doc string for the abs function.
 id(object)             # This will return the address of object. a=10; type(a)- This will return the address of object a.
 
 # modules path         # C:\Program Files\Python36\Lib in windows.
 # module index         # https://docs.python.org/3/py-modindex.html
-
-# print() function in python
 
 print("Linux","Python","AWS",sep="|",end=':') # sep= out put separator and end=\n or some indicator.
 

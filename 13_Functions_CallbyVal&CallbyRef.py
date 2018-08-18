@@ -22,7 +22,7 @@ print(first.__doc__)                                   # Usage of doc string. **
 print("1 **********************")
 #################################################################################################################
 # functions with arguments are divided into 4 categories
-# 1.Default arguments  2. Required arguments   3.Keyword arguments    4.Keyword arguments
+# 1.Default arguments  2. Required arguments   3.Keyword arguments    4.Variable length Keyword arguments
 
 def defarg(age, name='kiran',):                   # "Non default arguments" should be always placed first and followed by "Default arguments"
     """Default argument functionality"""
@@ -60,7 +60,7 @@ vararg(999999,12.34,'Hello',34)                    # Name=999999, *args=12.34,'H
 #################################################################################################################
 # Call by Value (Immutable objects) and Call by reference (Mutable Objects).
 # Call by value:     Value of the object is passed as copy hence there wont be any affect to the global variable.
-# Call by Reference: Object it self is passed as an argument hence outside/global variable will change.
+# Call by Reference: Object it self is passed as an argument hence outside/global,enclosed variable will change.
 
 a=50
 s1='string'

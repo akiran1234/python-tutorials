@@ -41,18 +41,34 @@ print("Map example2=",l2)
 # filter function will have two arguments 1. function 2.sequence/iterator (list,tuple ..)
 # Syntax: filter(function,iterator)
 # The filter(aFunction, aSequence) function applies a passed-in function to each item
+# Filter works on True/False return value of function which is passed as an argument.
 # .. in an iterable object and returns a list containing all the function call results.
 # filter () also works the same way as map but it filters the elements based on condition.
 # Syntax: filter(function,iterator)
 # filter is similar to list comprehension where we can apply filter in list comprehension as well.
 
-l3=list(filter(lambda x:x*x<30,l1))
+l3=list(filter(lambda x:x*x<30,l1))   # Filter works on True/False values of function argument.
 l4=list(filter(lambda x:x%2==0,l1))
 print("Filter applied",l3,l4)
 
+
+l11=[1,2,3,4,5,6,7,8,9]
+exp=lambda x:x>2 and x<8
+print(list(map(exp,l11)))
+print(list(filter(exp,l11)))
 
 # List comprehension
 
 l10=[1,2,3,4]
 print([x*x for x in l if x*x>4])
+
+# Reduce function is available in functools module.
+# This will take two arguments 1. Function and 2. Iterable
+
+import functools as f
+r=[1,2,3,4,5,6]
+
+print(f.reduce(lambda x,y:x+y,r)) # Here x,y values taken from list, here first two elements will be summed and then it will be summed with next element.
+
+
 

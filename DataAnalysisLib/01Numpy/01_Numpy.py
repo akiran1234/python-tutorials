@@ -66,7 +66,7 @@ print("Identity Matrix 4*4=",np.eye(3),sep='\n')  # Size = sum of ones in the di
 print("********************************")
 # Generate random numbers using random module of numpy library rand(), randint(), randn() functions.
 
-print("4 Random Numbers=",              np.random.rand(4))   # Generate 4 random numbers and each item will be 0 and 1
+print("4 Random Numbers=",              np.random.rand(4))           # Generate 4 random numbers and each item will be 0 and 1
 print("5 Random Numbers between limit=",np.random.randint(10,50,5))  # Generate 5 random integers between 10 and 5.
 print("3x3 Matrix with randn()",np.random.randn(3,3),sep='\n')       # Generate matrix
 

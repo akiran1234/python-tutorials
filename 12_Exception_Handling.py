@@ -27,8 +27,8 @@
 # except Exception:        # This is a generic exception or base class of all Exception which can handle any sort of exceptions.
 # 	execute this block
 # else:
-# 	execute this block if no exception. # If there is not exception then else block will be executed. It means try block is executed sucessfully .
-# finally:                                # This finally block will be executed regardless of exception has been raised or not.
+# 	execute this block if no exception. # If there is no exception then else block will be executed. It means try block is executed sucessfully .
+# finally:                              # This finally block will be executed regardless of exception has been raised or not.
 # 	execute this block
 
 
