@@ -57,7 +57,7 @@ print("Printing the value of var3:",var3)
 # 2. String Data type       # Immutable sequence data type, stores sequence of characters.
 # 3. List Data type  []     # Mutable   sequence data type, where we can update,delete,remove the values of list object.
 # 4. Tuple Data type ()     # Immutable sequence data type, where we cannot update delete and remove the values of tuple object.
-# 5. Set Data type   {}     # A set is an unordered collection i.e no indexing and  with no duplicate elements.
+# 5. Set Data type   {}     # A set is an unordered collection i.e no indexing hence we cant iterate using for loop. set will not support duplicate elements.
 # 6. Dictionary Data type   # Which holds key value data elements.
 
 #####################################################################################################################

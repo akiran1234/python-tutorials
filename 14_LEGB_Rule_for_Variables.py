@@ -5,6 +5,8 @@
 # Here x='Global' is a global variable with in the scope of this it's module and visible to to it's
 # .. functions and nested functions.
 # View builtin variables import builtins; print(dir(builtins))
+# "global" keyword defined in enclosed function and inner function to change the global variables values.
+# "nonlocal" keyword defined in local/inner function to change enclosed variable value.
 
 
 x='Global'

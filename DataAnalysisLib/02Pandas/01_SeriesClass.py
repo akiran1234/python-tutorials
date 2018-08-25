@@ -8,7 +8,7 @@ import pandas as pd
 # Syntax = pandas.Series( data, index, dtype, copy)
 
 l=[10,20,30,40,50]
-d={'name':'Kiran','id':100,'sal':1000.50}    # When dict is passed as data key values will be taken as index.
+d={'name':'Kiran','id':100,'sal':1000.50}              # When dict is passed as data key values will be taken as index.
 
 s1=pd.Series(l,index=['a','b','c','d','e'])            # Creating Series from a list.
 #print(s1)
