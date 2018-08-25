@@ -46,16 +46,25 @@ print("2 **********************")
 # sum(name='Unix',age=27,price=230.45)             # Calling the arguments with names assigned with values.
 # sum(price=230.45,name='Unix',age=27,)            # Order of the arguments is not same with function definition.
 #################################################################################################################
-# 4. Variable length Arguments
+# 4. Variable length Arguments (*args, **kwargs)
 # If the no of arguments that will be passed to a function is not sure then the argument should be declared as Variable length argument.
 
-def vararg(name,*arg):
-    for x in arg:
+def vararg(name,*args):
+    for x in args:
         print('Printing arguments name is:{0} and variable argument:{1}'.format(name,x))
 
 
 vararg('python',10,20,30)                          # First argument ('python') will assigned to 'name' rest will be variable arguments (10,20,30).
 vararg(999999,12.34,'Hello',34)                    # Name=999999, *args=12.34,'Hello',34
+
+
+def func(**kwargs):
+    print(type(kwargs),kwargs)
+
+    for i,j in kwargs.items():
+        print('Printing un know args:',i,j)
+
+func(name='Kiran',sal=100,id=500)
 
 #################################################################################################################
 # Call by Value (Immutable objects) and Call by reference (Mutable Objects).
